@@ -36,6 +36,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation project(path: ':annotation')
-    annotationProcessor  project(path: ':annotation_compiler')
+    implementation project(path: ':annotation') //注解
+    annotationProcessor  project(path: ':annotation_compiler') //注解处理器
 }

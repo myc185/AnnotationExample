@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        MyButterknife.bind(this);
+        MyButterknife.bind(this); //一键实现findViewById功能
         mTvText.setText("Test");
     }
 }
