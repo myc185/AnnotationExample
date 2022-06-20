@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AnnotationExample"
 include ':app'
+include ':annotation_compiler'
+include ':annotation'
